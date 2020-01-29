@@ -175,7 +175,7 @@ const (
 	labelL      = "size/L"
 	labelXL     = "size/XL"
 	labelXXL    = "size/XXL"
-	labelUnkown = "size/?"
+	labelUnknown = "size/?"
 )
 
 func (s size) label() string {
@@ -194,7 +194,7 @@ func (s size) label() string {
 		return labelXXL
 	}
 
-	return labelUnkown
+	return labelUnknown
 }
 
 func bucket(lineCount int, sizes plugins.Size) size {
